@@ -55,12 +55,12 @@ header {
 	text-align: center;
 }
 
-header h1#name {
+header h1.name {
 	margin-bottom: 8px;
 	font-size: 2.6em;
 }
 
-header h2#bio {
+header h2.bio {
 	margin-bottom: 36px;
 	font-size: 1.6em;
 	font-weight: 400;
@@ -98,11 +98,11 @@ header a.social-btn:hover {
 
 /* Works */
 
-section#works {
+section.works {
 	padding: 60px 0;
 }
 
-section#works .container {
+section.works .container {
 	display: flex;
 		display: -webkit-flex;
 		display: -moz-flex;
