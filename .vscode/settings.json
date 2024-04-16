@@ -1,5 +1,8 @@
 {
     "files.associations": {
         "*.html": "jekyll"
+    },
+    "emmet.includeLanguages":{
+        "jekyll": "html"
     }
 }
