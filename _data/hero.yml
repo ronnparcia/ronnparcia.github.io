@@ -1,0 +1,8 @@
+resume_btn:
+  text: "Download Resume"
+  url: "#"
+  icon: ""
+  
+email_btn:
+  text: "Send an Email"
+  url: "mailto:ronnparcia@gmail.com"
