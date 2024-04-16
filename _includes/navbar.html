@@ -1,6 +1,10 @@
 <nav>
+    <!-- Site Title -->
     <div>Ronn Parcia</div>
+
+    <!-- Navbar Items -->
     <ul>
+        <!-- Iterate over items in _data/navbar.yml -->
         {% for item in site.data.navbar %}
             <li><a href="{{ item.url }}">{{ item.title }}</a></li>
         {% endfor %}
