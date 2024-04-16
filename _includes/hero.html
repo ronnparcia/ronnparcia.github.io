@@ -8,8 +8,13 @@
     </h2>
 
     <!-- Buttons -->
-    <a href="{{ site.data.hero.resume_btn.url }}">{{ site.data.hero.resume_btn.text }}</a>
-    <a href="{{ site.data.hero.email_btn.url }}">{{ site.data.hero.email_btn.text }}</a>
+    <a href="{{ site.data.hero.resume_btn.url }}">
+        {{ site.data.hero.resume_btn.text }}
+    </a>
+    <a href="{{ site.data.hero.email_btn.url }}">
+        {{ site.data.hero.email_btn.text }}
+    </a>
+
     <!-- Socials -->
     {% for platform in site.data.socials %}
         <a href="{{ platform.url }}" target="_blank">
