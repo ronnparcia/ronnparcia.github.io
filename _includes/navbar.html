@@ -1,1 +1,8 @@
-Navbar
+<nav>
+    <div>Ronn Parcia</div>
+    <ul>
+        {% for item in site.data.navbar %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
