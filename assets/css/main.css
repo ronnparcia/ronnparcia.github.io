@@ -84,7 +84,7 @@ body {
 }
 
 /* ==========================================================================
-   Buttons
+   Buttons and Icon Links
    ========================================================================== */
 
 .button {
@@ -101,6 +101,11 @@ body {
 
 .button i {
     margin-right: 0.5625rem;
+}
+
+.social-icon {
+    font-size: 1.5em;
+    text-decoration: none;
 }
 
 
