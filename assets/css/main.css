@@ -185,3 +185,32 @@ header, section, footer {
 #about strong {
     font-weight: 800;
 }
+
+/* ==========================================================================
+   Projects
+   ========================================================================== */
+
+#projects .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.1875rem;
+}
+
+.card {
+    border: var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    background-color: white;
+    width: 100%;
+}
+
+.card-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card-image-wrapper img {
+    width: 100%
+}
