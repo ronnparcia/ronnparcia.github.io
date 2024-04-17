@@ -9,6 +9,7 @@
     --light-gray: #F5F5F4;
 
     --border: 1px solid black;
+    --radius: 0.375rem;
     --shadow: 0px 3px 0px 0px var(--black);
 }
 
