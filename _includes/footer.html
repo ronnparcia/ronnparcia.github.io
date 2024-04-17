@@ -1,11 +1,13 @@
 <footer>
-    <h3>ronnparcia.github.io</h3>
-    <small>Copyright © 2024 Ronn Parcia</small>
+    <div class="container">
+        <h3>ronnparcia.github.io</h3>
+        <small>Copyright © 2024 Ronn Parcia</small>
 
-    <!-- Socials -->
-    {% for platform in site.data.socials %}
-        <a href="{{ platform.url }}" target="_blank">
-            <i class="{{ platform.icon }}"></i>
-        </a>
-    {% endfor %}
+        <!-- Socials -->
+        {% for platform in site.data.socials %}
+            <a href="{{ platform.url }}" target="_blank">
+                <i class="{{ platform.icon }}"></i>
+            </a>
+        {% endfor %}
+    </div>
 </footer>

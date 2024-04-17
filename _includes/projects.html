@@ -1,28 +1,30 @@
 <section id="projects">
-    <h2>Projects</h2>
-    {% for project in site.data.projects %}
-        <div>
-            <!-- Image -->
-            <img src="{{ project.image }}" alt="" />
+    <div class="container">
+        <h2>Projects</h2>
+        {% for project in site.data.projects %}
+            <div>
+                <!-- Image -->
+                <img src="{{ project.image }}" alt="" />
 
-            <!-- Details -->
-            <h3>{{ project.title }}</h3>
-            <small>{{ project.subtitle }}</small>
-            <p>{{ project.description }}</p>
+                <!-- Details -->
+                <h3>{{ project.title }}</h3>
+                <small>{{ project.subtitle }}</small>
+                <p>{{ project.description }}</p>
 
-            <!-- Links -->
-            <ul>
-                {% for link in project.links %}
-                    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-                {% endfor %}
-            </ul>
+                <!-- Links -->
+                <ul>
+                    {% for link in project.links %}
+                        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
+                </ul>
 
-            <!-- Tech Stack -->
-            <ul>
-                {% for technology in project.technologies %}
-                    <li>{{ technology }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-    {% endfor %}
+                <!-- Tech Stack -->
+                <ul>
+                    {% for technology in project.technologies %}
+                        <li>{{ technology }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
 </section>

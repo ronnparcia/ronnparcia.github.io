@@ -24,3 +24,12 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Cabinet Grotesk', sans-serif;
 }
+
+body {
+    padding: 0 1.5rem;
+}
+
+.container {
+    max-width: 1191px;
+    margin: 0 auto;
+}
