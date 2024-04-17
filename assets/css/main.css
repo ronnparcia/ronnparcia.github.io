@@ -130,6 +130,41 @@ header, section, footer {
     text-decoration: none;
 }
 
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+
+nav {
+    background-color: var(--black);
+    max-width: 1258px;
+    margin: 2.5rem auto 0;
+    padding: 1.125rem 0;
+    border-radius: ;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .site-title a {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+
 
 /* ==========================================================================
    Hero
