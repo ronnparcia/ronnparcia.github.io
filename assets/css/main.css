@@ -47,6 +47,7 @@ h1 {
 
 h2, h3 {
     font-size: 1.5em;
+    margin-bottom: 1.25rem;
 }
 
 h3 {
@@ -170,10 +171,6 @@ header, section, footer {
 #about .description-wrapper {
     display: flex;
     gap: 1rem;
-}
-
-#about h2 {
-    margin-bottom: 1.25rem;
 }
 
 #about i {
