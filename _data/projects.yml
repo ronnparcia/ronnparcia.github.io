@@ -1,7 +1,7 @@
 # On Different Pages
 - title: On Different Pages
   subtitle: Website for a student election special
-  description: A longer description
+  description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
   links:
   - title: Live Site
     url: https://se2023.thelasallian.com
@@ -12,13 +12,13 @@
   - JS
   - Jquery
   - Bootstrap
-  image: "assets/project-thumbnails/on-different-pages.png"
+  image: "assets/images/project-thumbnails/on-different-pages.png"
   background_color: "#22A699"
 
 # Juan Government
 - title: Juan Government
   subtitle: E-government system prototype
-  description: A longer description
+  description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
   links:
   - title: Figma Prototype
     url: https://se2023.thelasallian.com
@@ -29,13 +29,13 @@
   technologies:
   - Design Thinking
   - Figma
-  image: "assets/project-thumbnails/juan-government.png"
+  image: "assets/images/project-thumbnails/juan-government.png"
   background_color: "#D1386F"
 
 # Foodcombo Admin
 - title: Foodcombo Admin
   subtitle: Admin panel web application
-  description: A longer description
+  description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
   links:
   - title: Source Code
     url: https://se2023.thelasallian.com
@@ -46,13 +46,13 @@
   - MySQL
   - XML
   - Bootstrap
-  image: "assets/project-thumbnails/foodcombo-admin.png"
+  image: "assets/images/project-thumbnails/foodcombo-admin.png"
   background_color: "#86469C"
 
 # Bean There, Done That
 - title: Bean There, Done That
   subtitle: Café review web application
-  description: A longer description
+  description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
   links:
   - title: Live Site
     url: https://bean-there-done-that.onrender.com/
@@ -65,13 +65,13 @@
   - MongoDB
   - Jquery
   - Bootstrap
-  image: "assets/project-thumbnails/bean-there-done-that.png"
+  image: "assets/images/project-thumbnails/bean-there-done-that.png"
   background_color: "#A8CD9F"
 
 # Rant and Rave
 - title: Rant and Rave
   subtitle: Publication website
-  description: A longer description
+  description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
   links:
   - title: Live Site
     url: https://rnr.thelasallian.com/
@@ -83,5 +83,5 @@
   - JS
   - Jquery
   - Bootstrap
-  image: "assets/project-thumbnails/rant-and-rave.png"
+  image: "assets/images/project-thumbnails/rant-and-rave.png"
   background_color: "#40BDD8"

@@ -1,12 +1,16 @@
 <nav>
-    <!-- Site Title -->
-    <div>Ronn Parcia</div>
+    <div class="container">
+        <!-- Site Title -->
+        <div class="site-title">
+            <a href="/">Ronn Parcia</a>
+        </div>
 
-    <!-- Navbar Items -->
-    <ul>
-        <!-- Iterate over items in _data/navbar.yml -->
-        {% for item in site.data.navbar %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
-    </ul>
+        <!-- Navbar Items -->
+        <ul>
+            <!-- Iterate over items in _data/navbar.yml -->
+            {% for item in site.data.navbar %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
 </nav>
