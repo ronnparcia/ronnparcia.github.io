@@ -12,7 +12,7 @@
   - JS
   - Jquery
   - Bootstrap
-  image: "assets/project-thumbnails/on-different-pages.png"
+  image: "assets/images/project-thumbnails/on-different-pages.png"
   background_color: "#22A699"
 
 # Juan Government
@@ -29,7 +29,7 @@
   technologies:
   - Design Thinking
   - Figma
-  image: "assets/project-thumbnails/juan-government.png"
+  image: "assets/images/project-thumbnails/juan-government.png"
   background_color: "#D1386F"
 
 # Foodcombo Admin
@@ -46,7 +46,7 @@
   - MySQL
   - XML
   - Bootstrap
-  image: "assets/project-thumbnails/foodcombo-admin.png"
+  image: "assets/images/project-thumbnails/foodcombo-admin.png"
   background_color: "#86469C"
 
 # Bean There, Done That
@@ -65,7 +65,7 @@
   - MongoDB
   - Jquery
   - Bootstrap
-  image: "assets/project-thumbnails/bean-there-done-that.png"
+  image: "assets/images/project-thumbnails/bean-there-done-that.png"
   background_color: "#A8CD9F"
 
 # Rant and Rave
@@ -83,5 +83,5 @@
   - JS
   - Jquery
   - Bootstrap
-  image: "assets/project-thumbnails/rant-and-rave.png"
+  image: "assets/images/project-thumbnails/rant-and-rave.png"
   background_color: "#40BDD8"
