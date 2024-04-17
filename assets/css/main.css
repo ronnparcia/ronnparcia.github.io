@@ -217,14 +217,21 @@ header, section, footer {
    ========================================================================== */
 
 .card-image-wrapper {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    overflow: hidden;
+    height: 200px;
 }
 
 .card-image-wrapper img {
-    width: 100%
+    position: absolute;
+    width: 320px;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Details
