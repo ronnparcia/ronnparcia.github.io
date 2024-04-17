@@ -36,8 +36,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Cabinet Grotesk', sans-serif;
 }
 
+
 h1 {
-    font-size: 2em;
+    font-size: 2.25em; /* The only H1 in the page is "Hi I'm Ronn!" */
 }
 
 h2, h3 {
@@ -76,4 +77,23 @@ body {
 .container {
     max-width: 1191px;
     margin: 0 auto;
+}
+
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+
+#hero h1 {
+    font-weight: 300;
+}
+
+#hero p {
+    margin: 1.875rem 0;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+#hero strong {
+    font-weight: 800;
 }
