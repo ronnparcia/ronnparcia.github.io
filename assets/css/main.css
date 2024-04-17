@@ -126,3 +126,28 @@ body {
 #hero strong {
     font-weight: 800;
 }
+
+#hero .container {
+    display: flex;
+    gap: 2rem;
+}
+
+#hero-content {
+    flex: 1;
+}
+
+#hero-profile-pic-container {
+    flex: 0 0 auto;
+    width: 225px;
+}
+
+#hero-profile-pic-container img {
+    width: 100%;
+}
+
+#hero-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
