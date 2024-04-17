@@ -155,3 +155,33 @@ header, section, footer {
     gap: 1rem;
 }
 
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+#about .container {
+    display: flex;
+    gap: 3.125rem;
+}
+
+#about .description-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+#about h2 {
+    margin-bottom: 1.25rem;
+}
+
+#about i {
+    font-size: 2em;
+}
+
+#about p {
+    font-size: 1.125em;
+    font-weight: 300;
+}
+
+#about strong {
+    font-weight: 800;
+}
