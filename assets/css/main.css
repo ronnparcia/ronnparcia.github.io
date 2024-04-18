@@ -40,7 +40,7 @@ p, small, span, ul, li {
 }
 
 a {
-    color: inherit;
+    color: inherit;   
 }
 
 /* Headings
@@ -435,11 +435,25 @@ nav li {
     font-size: 1.25em;
     margin-right: 0.5rem;
     line-height: 0.25;
+    transition: 0.2s;
 }
 
 .card-links a {
     line-height: 2;
     font-weight: 700;
+    text-underline-offset: 0.3125em;
+    text-decoration-thickness: 0.125em;
+    text-decoration-color: rgba(0, 0, 0, 0.25);
+    transition: 0.2s;
+}
+
+.card-links li:hover a {
+    text-decoration-color: rgba(0, 0, 0, 1);
+    transform: translateY(0.125rem);
+}
+
+.card-links li:hover i {
+    transform: translateY(0.125rem);
 }
 
 @media (max-width: 992px) {
