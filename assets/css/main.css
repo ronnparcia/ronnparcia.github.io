@@ -268,6 +268,13 @@ nav li {
     gap: 2rem;
 }
 
+/* When the screen size is 768px or less */
+@media (max-width: 992px) {
+    #hero .container {
+        flex-direction: column-reverse;
+    }
+}
+
 #hero-content {
     flex: 1;
 }
@@ -281,11 +288,34 @@ nav li {
     width: 100%;
 }
 
+/* When the screen size is 768px or less */
+@media (max-width: 992px) {
+    #hero-profile-pic-container {
+        width: 150px;
+    }
+}
+
 #hero-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-links-container {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
+
+@media (max-width: 420px) {
+    #hero-links {
+        flex-direction: column;
+        align-items: start;
+        gap: 2rem;
+    }
+
+}
+
 
 /* ==========================================================================
    About
