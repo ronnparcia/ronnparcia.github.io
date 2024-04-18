@@ -478,6 +478,12 @@ nav li {
     }
 }
 
+@media (max-width: 500px) {
+    .card-project-desc {
+        display: none;
+    }
+}
+
 @media (max-width: 389px) {
     .card-links {
         flex-direction: column;
