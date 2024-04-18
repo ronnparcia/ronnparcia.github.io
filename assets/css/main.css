@@ -92,14 +92,60 @@ ul {
    ========================================================================== */
 
 body {
-    padding: 0 1.5rem;
     background-color: var(--beige);
 }
 
-.container {
+/* .container {
     max-width: 1191px;
     margin: 0 auto;
-}
+} */
+
+/*!
+ * Bootstrap Grid v5.3.3 (https://getbootstrap.com/)
+ * Copyright 2011-2024 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+ .container,
+ .container-fluid,
+ .container-xxl,
+ .container-xl,
+ .container-lg,
+ .container-md,
+ .container-sm {
+   --bs-gutter-x: 1.5rem;
+   --bs-gutter-y: 0;
+   width: 100%;
+   padding-right: calc(var(--bs-gutter-x) * 0.5);
+   padding-left: calc(var(--bs-gutter-x) * 0.5);
+   margin-right: auto;
+   margin-left: auto;
+ }
+ 
+ @media (min-width: 576px) {
+   .container-sm, .container {
+     max-width: 540px;
+   }
+ }
+ @media (min-width: 768px) {
+   .container-md, .container-sm, .container {
+     max-width: 720px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container-lg, .container-md, .container-sm, .container {
+     max-width: 960px;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container-xl, .container-lg, .container-md, .container-sm, .container {
+     max-width: 1140px;
+   }
+ }
+ @media (min-width: 1400px) {
+   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+     max-width: 1320px;
+   }
+ }
 
 header, section, footer {
     margin: 4rem 0;
@@ -136,9 +182,9 @@ header, section, footer {
 
 nav {
     background-color: var(--black);
-    max-width: 1258px;
-    margin: 2.5rem auto 0;
-    padding: 1.125rem 0;
+    /* width: 100%; */
+    margin: 2.5rem 2rem 0;
+    padding: 1.125rem;
     border-radius: 0.75rem;
 }
 
@@ -215,7 +261,8 @@ nav li {
 #about .container {
     display: flex;
     gap: 3.125rem;
-    padding: 3.125rem 0;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
     border-top: 1px solid rgba(0, 0, 0, 0.25);
     border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
@@ -339,7 +386,8 @@ footer .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5625rem 0;
+    padding-top: 1.5625rem;
+    padding-bottom: 1.5625rem;
     border-top: 1px solid rgba(0, 0, 0, 0.25);
 }
 
