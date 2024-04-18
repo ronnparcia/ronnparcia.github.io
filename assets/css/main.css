@@ -265,6 +265,19 @@ nav li {
     margin-left: 1rem;
 }
 
+nav li a {
+    display: block;
+    text-decoration: underline;
+    text-decoration-color: var(--black);
+    text-underline-offset: var(--underline-offset);
+    text-decoration-thickness: var(--underline-thickness);
+    transition: var(--transition);
+}
+
+nav li a:hover {
+    text-decoration-color: var(--green);
+    transform: var(--translateY);
+}
 
 
 /* ==========================================================================
