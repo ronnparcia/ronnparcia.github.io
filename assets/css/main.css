@@ -192,7 +192,7 @@ header, section, footer {
 .button:hover {
     transform: translateY(0.125rem);
     box-shadow: var(--shadow-hover);
-    color: rgba(0, 0, 0, 0.5);
+    color: #0f766e;
 }
 
 .social-icon {
@@ -456,8 +456,9 @@ nav li {
 }
 
 .card-links li:hover a {
-    text-decoration-color: rgba(0, 0, 0, 1);
+    text-decoration-color: #0f766e;
     transform: translateY(0.125rem);
+    color: #0f766e;
 }
 
 .card-links li:hover i {
