@@ -52,6 +52,22 @@ a {
     color: inherit;   
 }
 
+#hero a,
+#about a {
+    text-underline-offset: var(--underline-offset);
+    text-decoration-thickness: var(--underline-thickness);
+    text-decoration-color: rgba(0, 0, 0, 0.15);
+    transition: var(--transition);
+}
+
+#hero a:hover,
+#about a:hover {
+    text-decoration-color: var(--green);
+    color: var(--green);
+}
+
+
+
 /* Headings
    ========================================================================== */
 
