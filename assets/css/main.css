@@ -478,7 +478,7 @@ nav li a:hover {
     font-weight: 700;
     text-underline-offset: var(--underline-offset);
     text-decoration-thickness: var(--underline-thickness);
-    text-decoration-color: rgba(0, 0, 0, 0.25);
+    text-decoration-color: rgba(0, 0, 0, 0.15);
     transition: var(--transition);
 }
 
