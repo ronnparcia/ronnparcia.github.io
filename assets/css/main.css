@@ -19,6 +19,9 @@
 
     --translateY: translateY(0.1rem);
     --transition: 0.2s ease-in-out;
+
+    --underline-offset: 0.3125rem;
+    --underline-thickness: 0.125rem;
 }
 
 * {
@@ -460,8 +463,8 @@ nav li {
 .card-links a {
     line-height: 2;
     font-weight: 700;
-    text-underline-offset: 0.3125em;
-    text-decoration-thickness: 0.125em;
+    text-underline-offset: var(--underline-offset);
+    text-decoration-thickness: var(--underline-thickness);
     text-decoration-color: rgba(0, 0, 0, 0.25);
     transition: var(--transition);
 }
