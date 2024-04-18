@@ -91,8 +91,24 @@ ul {
    Body, Containers, and Sections
    ========================================================================== */
 
+html {
+    font-size: 100%;
+}
+
 body {
     background-color: var(--beige);
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 75%;
+    }
 }
 
 /* .container {
