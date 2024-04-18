@@ -365,6 +365,18 @@ nav li {
     gap: 2.1875rem;
 }
 
+@media (max-width: 1200px) {
+    #projects .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    #projects .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .card {
     border: var(--border);
     border-radius: var(--radius);
@@ -428,6 +440,50 @@ nav li {
 .card-links a {
     line-height: 2;
     font-weight: 700;
+}
+
+@media (max-width: 992px) {
+    .card {
+        display: flex;
+    }
+
+    .card-image-wrapper {
+        width: 200px;
+        height: 100%;
+        flex: 0 0 auto;
+    }
+
+    .card-image-wrapper img {
+        left: 80%;
+    }
+
+    .card-details {
+        flex: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        display: flex;
+    }
+
+    .card-image-wrapper {
+        width: 100px;
+        height: 100%;
+        flex: 0 0 auto;
+    }
+
+    .card-details {
+        flex: 1;
+    }
+}
+
+@media (max-width: 389px) {
+    .card-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: start;
+    }
 }
 
 /* Technologies
