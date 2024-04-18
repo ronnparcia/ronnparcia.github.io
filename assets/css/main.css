@@ -34,9 +34,6 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    /* Font */
-    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 /* ==========================================================================
@@ -94,6 +91,10 @@ h3 {
 
 /* Paragraphs, etc.
    ========================================================================== */
+
+p, ul, small, a {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
 
 p {
     font-size: 1em;
