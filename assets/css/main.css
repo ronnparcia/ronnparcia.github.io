@@ -16,6 +16,8 @@
     --shadow-hover: 0px 1px 0px 0px var(--black);
 
     --small-fz: 0.75rem;
+
+    --translateY: translateY(0.1rem);
 }
 
 * {
@@ -192,7 +194,7 @@ header, section, footer {
 }
 
 .button:hover {
-    transform: translateY(0.125rem);
+    transform: var(--translateY);
     box-shadow: var(--shadow-hover);
     color: var(--green);
 }
@@ -204,7 +206,7 @@ header, section, footer {
 }
 
 .social-icon:hover {
-    transform: translateY(0.125rem);
+    transform: var(--translateY);
     color: var(--green);
 }
 
@@ -465,12 +467,12 @@ nav li {
 
 .card-links li:hover a {
     text-decoration-color: var(--green);
-    transform: translateY(0.125rem);
+    transform: var(--translateY);
     color: var(--green);
 }
 
 .card-links li:hover i {
-    transform: translateY(0.125rem);
+    transform: var(--translateY);
 }
 
 @media (max-width: 992px) {
