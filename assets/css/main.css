@@ -200,6 +200,12 @@ header, section, footer {
 .social-icon {
     font-size: 1.5em;
     text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: translateY(0.125rem);
+    color: var(--green);
 }
 
 /* ==========================================================================
