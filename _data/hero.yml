@@ -1,9 +1,15 @@
-resume_btn:
-  text: "Download Resume"
+- btn_name: "Resume"
   url: "#"
-  icon: "bi-download"
+  icon: bi-download
 
-email_btn:
-  text: "Send an Email"
+- btn_name: "Email"
   url: "mailto:ronnparcia@gmail.com"
-  icon: "bi-envelope-open"
+  icon: bi-envelope-open
+
+- btn_name: "LinkedIn"
+  url: "https://www.linkedin.com/in/ronnparcia/"
+  icon: bi-linkedin
+
+- btn_name: "GitHub"
+  url: "https://github.com/ronnparcia"
+  icon: bi-github
