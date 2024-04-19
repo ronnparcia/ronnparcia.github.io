@@ -2,7 +2,7 @@
     <div class="container">
         <div id="hero-content">
             <!-- Content -->
-            <h1>Hi, I'm <strong>Ronn</strong> 👋</h1>
+            <h1>Hi, I'm <strong>Ronn</strong>!</h1>
             <p>
                 I am a junior undergraduate studying Information Technology at
                 <a href="https://www.dlsu.edu.ph/">De La Salle
@@ -11,26 +11,12 @@
             </p>
 
             <div id="hero-links">
-                <!-- Buttons -->
-                <div class="hero-links-container">
-                    <a href="{{ site.data.hero.resume_btn.url }}" class="button">
-                        <i class="{{ site.data.hero.resume_btn.icon }}"></i>
-                        {{ site.data.hero.resume_btn.text }}
+                {% for button in site.data.hero %}
+                    <a href="{{ button.url }}" class="button">
+                        <i class="{{ button.icon }}"></i>
+                        {{ button.btn_name }}
                     </a>
-                    <a href="{{ site.data.hero.email_btn.url }}" class="button">
-                        <i class="{{ site.data.hero.email_btn.icon }}"></i>
-                        {{ site.data.hero.email_btn.text }}
-                    </a>
-                </div>
-
-                <!-- Socials -->
-                <div class="hero-links-container">
-                    {% for platform in site.data.socials %}
-                        <a href="{{ platform.url }}" target="_blank" class="social-icon">
-                            <i class="{{ platform.icon }}"></i>
-                        </a>
-                    {% endfor %}
-                </div>
+                {% endfor %}
             </div>
         </div>
 
