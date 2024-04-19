@@ -1,7 +1,7 @@
 # On Different Pages
 - title: On Different Pages
   subtitle: Website for a student election special
-  description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
+  description: Web counterpart of The LaSallian's <a href="bit.ly/TLSSpecialElections2023">special issue</a> on the 2023 DLSU student government election. This site features an interactive view of candidates' stand on issues along with a curation of articles, portraits, and links.
   links:
   - title: Live Site
     url: https://se2023.thelasallian.com
@@ -18,7 +18,7 @@
 # Juan Government
 - title: Juan Government
   subtitle: E-government system prototype
-  description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
+  description: A proposed design and chatbot for Philippine government websites, using Design Thinking. This project aimed to provide an intuitive way to access information about public services and create a seamless, accessible experience across government web portals.
   links:
   - title: Figma Prototype
     url: https://www.figma.com/proto/9GblBjb5uvitEPvPn7p7SL/%5BISDESTH%5D-Final-Prototype%3A-Juan-Government?page-id=0%3A1&type=design&node-id=354-2834&viewport=233%2C295%2C0.08&t=r6NkBtoYYaATEPmi-1&scaling=scale-down&starting-point-node-id=354%3A2834&show-proto-sidebar=1&mode=design
@@ -35,7 +35,7 @@
 # Foodcombo Admin
 - title: Foodcombo Admin
   subtitle: Admin panel web application
-  description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
+  description: An interface to perform CRUD operations on a MySQL database of food items, promo combos, and categories. The app includes a functionality to import and export data in XML format. 
   links:
   - title: Source Code
     url: https://github.com/ronnparcia/foodcombo-admin-ui
@@ -52,7 +52,7 @@
 # Bean There, Done That
 - title: Bean There, Done That
   subtitle: Café review web application
-  description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
+  description: A platform for coffee shop enthusiasts. Users can create an account, search coffee shops, and add reviews. The app also performs basic encryption on user passwords.
   links:
   - title: Live Site
     url: https://bean-there-done-that.onrender.com/
@@ -71,7 +71,7 @@
 # Rant and Rave
 - title: Rant and Rave
   subtitle: Publication website
-  description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
+  description: A sub-site of The LaSallian, showcasing review articles for the media industry. Articles are fetched through the WordPress API. The site includes a search feature and a way to extract the numeric rating from an article's body.
   links:
   - title: Live Site
     url: https://rnr.thelasallian.com/
