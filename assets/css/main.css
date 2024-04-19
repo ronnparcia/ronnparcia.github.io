@@ -600,3 +600,7 @@ footer .social-icon {
     margin-left: 0.625rem;
     display: inline-block;
 }
+
+footer h3 a {
+    text-decoration: none;
+}
