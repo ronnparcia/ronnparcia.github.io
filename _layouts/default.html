@@ -36,5 +36,20 @@
 </head>
 <body>
     {{ content }}
+
+    <script>
+        window.onscroll = function() {showStickyNavbar()};
+
+        var stickyNavbar = document.getElementById("sticky-navbar");
+
+        function showStickyNavbar() {
+        if (window.pageYOffset >= 200) {
+            stickyNavbar.classList.remove("hidden");
+        } else {
+            stickyNavbar.classList.add("hidden");
+        }
+        }
+
+    </script>
 </body>
 </html>

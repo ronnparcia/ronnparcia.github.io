@@ -241,6 +241,7 @@ nav {
     margin: 2.5rem auto 0;
     padding: 1.125rem;
     border-radius: 0.75rem;
+    transition: 0.6s opacity ease-in-out;
 }
 
 /* When the screen size is 1200px or less */
@@ -294,6 +295,21 @@ nav li a {
 nav li a:hover {
     text-decoration-color: var(--green);
     transform: var(--translateY);
+}
+
+#sticky-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    transition: 0.6s top ease-in-out;
+    margin: 0;
+    border-radius: 0;
+}
+
+#sticky-navbar.hidden {
+    top: -150px;
 }
 
 
