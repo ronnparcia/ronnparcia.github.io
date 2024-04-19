@@ -1,28 +1,41 @@
 <section id="projects">
-    <h2>Projects</h2>
-    {% for project in site.data.projects %}
-        <div>
-            <!-- Image -->
-            <img src="{{ project.image }}" alt="" />
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+            {% for project in site.data.projects %}
+                <div class="card">
+                    <!-- Image -->
+                    <div class="card-image-wrapper" style="background-color: {{ project.background_color }}">
+                        <img src="{{ project.image }}" alt="" />
+                    </div>
 
-            <!-- Details -->
-            <h3>{{ project.title }}</h3>
-            <small>{{ project.subtitle }}</small>
-            <p>{{ project.description }}</p>
+                    <!-- Details -->
+                    <div class="card-details">
+                        <div>
+                            <h3 class="card-project-title">{{ project.title }}</h3>
+                            <small class="subtitle">{{ project.subtitle }}</small>
+                        </div>
+                        <p class="card-project-desc">{{ project.description }}</p>
 
-            <!-- Links -->
-            <ul>
-                {% for link in project.links %}
-                    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-                {% endfor %}
-            </ul>
+                        <!-- Links -->
+                        <ul class="card-links">
+                            {% for link in project.links %}
+                                <li>
+                                    <i class="{{ link.icon }}"></i>
+                                    <a href="{{ link.url }}">{{ link.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
 
-            <!-- Tech Stack -->
-            <ul>
-                {% for technology in project.technologies %}
-                    <li>{{ technology }}</li>
-                {% endfor %}
-            </ul>
+                        <!-- Tech Stack -->
+                        <ul class="card-technologies">
+                            {% for technology in project.technologies %}
+                                <li>{{ technology }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
-    {% endfor %}
+    </div>
 </section>

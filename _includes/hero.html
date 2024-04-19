@@ -1,29 +1,28 @@
 <header id="hero">
-    <!-- Content -->
-    <h1>Hi, I'm Ronn 👋</h1>
-    <p>
-        I am a junior undergraduate studying Information Technology at De La Salle
-        University, with a great passion for user-centered design and web
-        development.
-    </p>
+    <div class="container">
+        <div id="hero-content">
+            <!-- Content -->
+            <h1>Hi, I'm <strong>Ronn</strong>!</h1>
+            <p>
+                I am a junior undergraduate studying Information Technology at
+                <a href="https://www.dlsu.edu.ph/">De La Salle
+                University</a>, with a great passion for <strong>user-centered design</strong> and
+                <strong>web development</strong>.
+            </p>
 
-    <!-- Buttons -->
-    <a href="{{ site.data.hero.resume_btn.url }}">
-        <i class="{{ site.data.hero.resume_btn.icon }}"></i>
-        {{ site.data.hero.resume_btn.text }}
-    </a>
-    <a href="{{ site.data.hero.email_btn.url }}">
-        <i class="{{ site.data.hero.email_btn.icon }}"></i>
-        {{ site.data.hero.email_btn.text }}
-    </a>
+            <div id="hero-links">
+                {% for button in site.data.hero %}
+                    <a href="{{ button.url }}" class="button">
+                        <i class="{{ button.icon }}"></i>
+                        {{ button.btn_name }}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
 
-    <!-- Socials -->
-    {% for platform in site.data.socials %}
-        <a href="{{ platform.url }}" target="_blank">
-            <i class="{{ platform.icon }}"></i>
-        </a>
-    {% endfor %}
-
-    <!-- Profile Picture -->
-    <img src="assets/profile_picture.png" alt="Profile Picture">
+        <!-- Profile Picture -->
+        <div id="hero-profile-pic-container">
+            <img src="assets/images/profile_picture.png" alt="Profile Picture" id="hero-profile-pic">
+        </div>
+    </div>
 </header>
