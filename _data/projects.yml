@@ -1,7 +1,7 @@
 # On Different Pages
 - title: On Different Pages
   subtitle: Website for a student election special
-  description: Web counterpart of The LaSallian's <a href="bit.ly/TLSSpecialElections2023">special issue</a> on the 2023 DLSU student government election. This site features an interactive view of candidates' stand on issues along with a curation of articles, portraits, and links.
+  description: Web counterpart of The LaSallian's <a href="bit.ly/TLSSpecialElections2023" target="_blank">special issue</a> on the 2023 DLSU student government election. This site features an interactive view of candidates' stand on issues along with a curation of articles, portraits, and links.
   links:
   - title: Live Site
     url: https://se2023.thelasallian.com
