@@ -21,10 +21,10 @@
   description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
   links:
   - title: Figma Prototype
-    url: https://se2023.thelasallian.com
+    url: https://www.figma.com/proto/9GblBjb5uvitEPvPn7p7SL/%5BISDESTH%5D-Final-Prototype%3A-Juan-Government?page-id=0%3A1&type=design&node-id=354-2834&viewport=233%2C295%2C0.08&t=r6NkBtoYYaATEPmi-1&scaling=scale-down&starting-point-node-id=354%3A2834&show-proto-sidebar=1&mode=design
     icon: bi-link-45deg
   - title: Case Study
-    url: https://example.com
+    url: https://docs.google.com/document/d/1-3ELamkpWkBjMcVZ8Xl69gslHhTM7JDs_1TW-IPUyc8/edit?usp=sharing
     icon: bi-book
   technologies:
   - Design Thinking
@@ -38,7 +38,7 @@
   description: Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.
   links:
   - title: Source Code
-    url: https://se2023.thelasallian.com
+    url: https://github.com/ronnparcia/foodcombo-admin-ui
     icon: bi-code
   technologies:
   - HTML/CSS
