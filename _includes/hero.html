@@ -5,14 +5,14 @@
             <h1>Hi, I'm <strong>Ronn</strong>!</h1>
             <p>
                 I am a junior undergraduate studying Information Technology at
-                <a href="https://www.dlsu.edu.ph/">De La Salle
+                <a href="https://www.dlsu.edu.ph/" target="_blank">De La Salle
                 University</a>, with a great passion for <strong>user-centered design</strong> and
                 <strong>web development</strong>.
             </p>
 
             <div id="hero-links">
                 {% for button in site.data.hero %}
-                    <a href="{{ button.url }}" class="button">
+                    <a href="{{ button.url }}" target="_blank" class="button">
                         <i class="{{ button.icon }}"></i>
                         {{ button.btn_name }}
                     </a>
