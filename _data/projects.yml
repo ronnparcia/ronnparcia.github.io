@@ -10,7 +10,7 @@
   - HTML/CSS
   - PHP
   - JS
-  - Jquery
+  - jQuery
   - Bootstrap
   image: "assets/images/project-thumbnails/on-different-pages.png"
   background_color: "#22A699"
@@ -64,7 +64,7 @@
   - Express.js
   - Handlebars
   - MongoDB
-  - Jquery
+  - jQuery
   - Bootstrap
   image: "assets/images/project-thumbnails/bean-there-done-that.png"
   background_color: "#A8CD9F"
@@ -82,7 +82,7 @@
   - WordPress API
   - PHP
   - JS
-  - Jquery
+  - jQuery
   - Bootstrap
   image: "assets/images/project-thumbnails/rant-and-rave.png"
   background_color: "#40BDD8"
