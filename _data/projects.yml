@@ -12,6 +12,9 @@
   technologies:
   - Design Thinking
   - Figma
+  - Interviews
+  - Space Saturate and Group
+  - Remote Testing
   image: "assets/images/project-thumbnails/juan-government.png"
   background_color: "#D1386F"
 
@@ -31,6 +34,21 @@
   - Bootstrap
   image: "assets/images/project-thumbnails/on-different-pages.png"
   background_color: "#22A699"
+
+  # IdentiTee
+- title: IdentiTee
+  subtitle: College merchandise e-commerce store
+  description: A minimalist online shopping platform for college merchandise such as shirts, hoodies, and caps. The site includes a product catalog, checkout, and payment pages, designed based on collected user insights.
+  links:
+  - title: Case Study
+    url: https://medium.com/@ronnparcia/designing-a-basic-e-commerce-store-for-college-merchandise-01cc1c80164e
+    icon: bi-link-45deg
+  technologies:
+  - Figma
+  - Surveys
+  - User Acceptance Test
+  image: "assets/images/project-thumbnails/identitee.png"
+  background_color: "#28248D"
 
 # Foodcombo Admin
 - title: Foodcombo Admin
