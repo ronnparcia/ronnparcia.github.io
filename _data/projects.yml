@@ -37,7 +37,7 @@
   subtitle: Admin panel web application
   description: An interface to perform CRUD operations on a MySQL database of food items, promo combos, and categories. The app includes a functionality to import and export data in XML format. 
   links:
-  - title: Source Code
+  - title: Code & Screenshots
     url: https://github.com/ronnparcia/foodcombo-admin-ui
     icon: bi-code
   technologies:
