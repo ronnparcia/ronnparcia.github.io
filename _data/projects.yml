@@ -1,20 +1,3 @@
-# On Different Pages
-- title: On Different Pages
-  subtitle: Website for a student election special
-  description: Web counterpart of The LaSallian's special edition issue on the 2023 DLSU student government election. This site features an interactive view of candidates' stand on issues along with a curation of articles, portraits, and links.
-  links:
-  - title: Live Site
-    url: https://se2023.thelasallian.com
-    icon: bi-link-45deg
-  technologies:
-  - HTML/CSS
-  - PHP
-  - JS
-  - jQuery
-  - Bootstrap
-  image: "assets/images/project-thumbnails/on-different-pages.png"
-  background_color: "#22A699"
-
 # Juan Government
 - title: Juan Government
   subtitle: E-government web redesign and chatbot
@@ -31,6 +14,23 @@
   - Figma
   image: "assets/images/project-thumbnails/juan-government.png"
   background_color: "#D1386F"
+
+# On Different Pages
+- title: On Different Pages
+  subtitle: Website for a student election special
+  description: Web counterpart of The LaSallian's special edition issue on the 2023 DLSU student government election. This site features an interactive view of candidates' stand on issues along with a curation of articles, portraits, and links.
+  links:
+  - title: Live Site
+    url: https://se2023.thelasallian.com
+    icon: bi-link-45deg
+  technologies:
+  - HTML/CSS
+  - PHP
+  - JS
+  - jQuery
+  - Bootstrap
+  image: "assets/images/project-thumbnails/on-different-pages.png"
+  background_color: "#22A699"
 
 # Foodcombo Admin
 - title: Foodcombo Admin
