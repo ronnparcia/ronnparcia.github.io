@@ -336,7 +336,7 @@ nav li a:hover {
 
 #hero .container {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 /* When the screen size is 768px or less */
