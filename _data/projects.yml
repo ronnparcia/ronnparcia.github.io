@@ -20,12 +20,12 @@
   subtitle: E-government web redesign and chatbot
   description: A proposed design and chatbot for Philippine government websites, using Design Thinking. This project aimed to provide an intuitive way to access information about public services and create a seamless, accessible experience across government web portals.
   links:
-  - title: Figma Prototype
+  - title: Case Study
+    url: https://medium.com/@ronnparcia/a-redesign-and-ai-chatbot-for-philippine-e-government-25f9c9717046
+    icon: bi-book
+  - title: Prototype
     url: https://www.figma.com/proto/9GblBjb5uvitEPvPn7p7SL/%5BISDESTH%5D-Final-Prototype%3A-Juan-Government?page-id=0%3A1&type=design&node-id=354-2834&viewport=233%2C295%2C0.08&t=r6NkBtoYYaATEPmi-1&scaling=scale-down&starting-point-node-id=354%3A2834&show-proto-sidebar=1&mode=design
     icon: bi-link-45deg
-  - title: Case Study
-    url: https://docs.google.com/document/d/1-3ELamkpWkBjMcVZ8Xl69gslHhTM7JDs_1TW-IPUyc8/edit?usp=sharing
-    icon: bi-book
   technologies:
   - Design Thinking
   - Figma
