@@ -27,6 +27,7 @@
     url: https://se2023.thelasallian.com
     icon: bi-link-45deg
   technologies:
+  - Figma
   - HTML/CSS
   - PHP
   - JS
@@ -59,6 +60,7 @@
     url: https://rnr.thelasallian.com/
     icon: bi-link-45deg
   technologies:
+  - Figma
   - HTML/CSS
   - WordPress API
   - PHP
@@ -94,8 +96,8 @@
     url: https://bean-there-done-that.onrender.com/
     icon: bi-link-45deg
   technologies:
-  - HTML/CSS
-  - JS
+  - Figma
+  - HTML/CSS/JS
   - Node.js
   - Express.js
   - Handlebars
