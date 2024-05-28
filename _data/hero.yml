@@ -1,7 +1,3 @@
-- btn_name: "Resume"
-  url: "https://drive.google.com/file/d/10aEmYp-GMqMFQr9SZUkvjJhGBBp9KjhG/view?usp=sharing"
-  icon: bi-download
-
 - btn_name: "Email"
   url: "mailto:ronnparcia@gmail.com"
   icon: bi-envelope-open
