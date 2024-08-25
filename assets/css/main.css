@@ -320,14 +320,18 @@ nav li a:hover {
    ========================================================================== */
 
 #hero h1 {
-    font-weight: 300;
+    /* font-weight: 300; */
     font-family: 'Cabinet Grotesk', sans-serif;
+}
+
+#hero h1 strong {
+    font-weight: 900;
 }
 
 #hero p {
     margin: 1.875rem 0;
-    font-size: 1.5em;
-    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.6;
 }
 
 #hero strong {
