@@ -322,6 +322,7 @@ nav li a:hover {
 #hero h1 {
     /* font-weight: 300; */
     font-family: 'Cabinet Grotesk', sans-serif;
+    margin-top: 0.25rem;
 }
 
 #hero h1 strong {
@@ -340,6 +341,7 @@ nav li a:hover {
 
 #hero .container {
     display: flex;
+    flex-direction: row-reverse;
     gap: 3rem;
 }
 
@@ -356,7 +358,7 @@ nav li a:hover {
 
 #hero-profile-pic-container {
     flex: 0 0 auto;
-    width: 225px;
+    width: 150px;
 }
 
 #hero-profile-pic-container img {
