@@ -433,6 +433,7 @@ nav li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.1875rem;
+    padding-top: 2.5rem;
 }
 
 @media (max-width: 1200px) {
