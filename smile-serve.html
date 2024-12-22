@@ -1,0 +1,41 @@
+---
+layout: default
+title: Smile Serve
+description: Abenson's Authorized Repair and Service Center
+permalink: /smile-serve/
+url: https://ronnparcia.github.io/smile-serve
+image: assets/images/smile-serve-thumbnail.png
+icon: assets/images/favicon.ico
+redirect_url: https://www.abenson.com/installation
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="icon" href="{{ page.icon | absolute_url }}" type="image/x-icon">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+
+    <!-- Redirect -->
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_url }}">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <p>If you are not redirected automatically, follow this <a href="{{ page.redirect_url }}">link</a>.</p>
+</body>
+</html>
